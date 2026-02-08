@@ -1,2 +1,11 @@
-# LeetCode-Data-Structures-and-Algorithms
-DSA solutions to LeetCode problems with explanations, time &amp; space complexity.
+# LeetCode DSA Solutions
+
+This repository contains my solutions to LeetCode problems written in C++.
+
+## Structure
+Problems are organized by topic (Arrays, Strings, Recursion, DP, etc.) to make revision easier.
+
+## Goal
+- Improve problem-solving skills
+- Maintain consistent GitHub activity
+- Use this repo for quick revision before exams and interviews
