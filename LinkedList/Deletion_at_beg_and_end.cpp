@@ -10,7 +10,9 @@ class node{
         }
     };
 void deletionAtStart(node*&head){
+    node*curr=head;
     head=head->next;
+    delete(curr);
 }
 void deletionAtEnd(node*&head){
     node*current=head;
