@@ -19,6 +19,14 @@ void deletionAtEnd(node*&head){
     }
     current->next=NULL;
 }
+void print(node*&head){
+    node*curr=head;
+    while(curr!=NULL){
+        cout<<curr->data<<" ";
+        curr=curr->next;
+    }
+    cout<<endl;
+}
 int main() {
     node*head=NULL;
     node*curr=NULL;
@@ -28,12 +36,13 @@ int main() {
     a->next=b;
     node*c=new node(3);
     b->next=c;
+    cout<<"Before Deletion: "<<endl;
+    print(head);
     deletionAtStart(head);
+    cout<<"After Deletion at start: "<<endl;
+    print(head);
     deletionAtEnd(head);
-    curr=head;
-    while(curr!=NULL){
-        cout<<curr->data<<" ";
-        curr=curr->next;
-    }
+    cout<<"After Deletion at End: "<<endl;
+    print(head);
     return 0;
 }
