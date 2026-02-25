@@ -8,3 +8,8 @@ There are 2 types of priority queues
 
 ->max heap;(Largest element is at top or front)
   ->Sysntax priority_queue<int>pq;
+
+->Insertion Complexity->O(log n);
+->Deletion Complexity->O(log n);
+->Accesing the Element->O(1);
+->Searching the Element->O(n);
