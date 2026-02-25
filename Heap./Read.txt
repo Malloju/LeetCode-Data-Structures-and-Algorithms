@@ -1,0 +1,10 @@
+Priority Queue is implemeted using heap;
+There are 2 types of priority queues 
+
+
+->Min heap;(smallest element is at top or front)
+  ->priority_queue<int, vector<int>, greater<int>> pq;
+
+
+->max heap;(Largest element is at top or front)
+  ->Sysntax priority_queue<int>pq;
