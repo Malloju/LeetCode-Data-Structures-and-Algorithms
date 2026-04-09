@@ -1,0 +1,19 @@
+Maps Concept
+A map stores data in key → value pairs.
+Syntax to create a map 
+map<key_datatype, value_datatype> name;
+example:
+map<int, string> student;  -->    1 → Vishu
+
+COMMON FUNCTIONS IN MAPS
+
+m.insert({1,"Vishu"}); --> to incert any value
+
+m.erase(1);--> to delete any value
+
+
+m.find(1); --> to find any example
+if key exists → it points to (1,"Vishu")
+if not → it == m.end()
+
+m.size(); -> gives size
