@@ -5,7 +5,7 @@ class Solution {
         int low=0;
         int high=n-1;
         while(low<high){
-            int temp=s[low];
+            char temp=s[low];
             s[low]=s[high];
             s[high]=temp;
             low++;
